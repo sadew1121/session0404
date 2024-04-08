@@ -1,0 +1,100 @@
+
+* {
+    font-family: "Song Myung", serif;
+}
+
+.title{
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.ment{
+    text-align: center;
+}
+
+.ban{
+    margin: 0;
+    width: 290px;
+    height: 990px;
+    background-image: url('https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/201310/28/htm_2013102810154430103011.jpg');
+    background-size: cover;
+    background-position: center;
+    border : 2px solid black;
+}
+
+.leftline {
+    margin-left: 300px;
+    width: 1200px;
+    height: 950px; /* 네모 라인의 세로 길이 */
+    border-left: 3px solid black; /* 테두리 스타일과 색상 지정 */
+    padding: 20px; /* 내부 여백 설정 */
+    background-color: rgb(228, 229, 241);
+    
+}
+
+.box {
+    margin-left: 40px;
+    width: 1050px; /* 네모 라인의 가로 길이 */
+    height: 400px; /* 네모 라인의 세로 길이 */
+    border: 3px solid black; /* 테두리 스타일과 색상 지정 */
+    padding: 20px; /* 내부 여백 설정 */
+    border-radius: 10px;
+    background-color: rgb(239, 239, 239);
+  }
+
+.profile_img {
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    text-align: bottom;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZYGC_IVAshC3is3qyNX8EmXvm5hX2f2T-UA&s');
+    background-size: cover;
+    background-position: center;
+    border-radius: 100px;
+    border : 2px solid black;
+
+}
+
+
+.line1{
+    margin-left: 170px;
+}
+
+.text_block{
+    margin-left: 420px;
+    margin-top: 15px;
+    font-size: 25px;
+    line-height: 2;
+    border : 2px solid black;
+    border-radius: 70px;
+    background-color: rgb(238, 234, 241);
+}
+
+.main_text{
+    margin-left : 50px;
+}
+
+.main_text li{
+    font-size: 28px;
+    line-height: 1;
+    width: 500px;
+    height: 70px;
+
+}
+
+.quiz{
+    margin-left: 0px ; 
+}
+
+
+/* HTML에서 버튼 요소에 대한 스타일링 */
+.quiz button {
+    margin-right: 70px;
+    margin-bottom: 10px;
+    width : 150px;
+    height : 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 페이지</title>
+    <link rel="stylesheet" href="H_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Song+Myung&display=swap" rel="stylesheet">
+    <style>
+        hr {border: 1px solid black}
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div style="float: left">
+            <button class = 'title' id = "m_but" ondblclick="">자기소개 페이지</button>
+        </div>
+        <div class="ment">
+            <h1 id="intro">제 자기소개 페이지에 오신 것을 환영합니다.</h1>
+            <hr></hr>
+        </div>
+
+        <div class="ban">
+            <div class="leftline">
+                <div class = "box">
+
+                    <section>
+
+                        <div style="float: left">
+                            <div class="profile_img"></div>
+                            <p class = "line1">프로필 사진</p>
+                        </div>
+
+                        <div class="text_block">
+
+                            <ul>
+                                <li>이름 : 곽현민</li>
+                                <li>생년월일 : 2001-11-12</li>
+                                <li>전공 : 통계학과</li>
+                                <li>이중전공 : 컴퓨터전자시스템공학부</li>
+                                <li>파트 : 백엔드</li>
+                                <li>mbti : istp</li>
+                            </ul>
+                                    
+                        </div>
+                                    
+                    </section>
+                            
+                </div>
+                <div style="float: left">
+                    <div class = "main_text">
+                        <h1>좋아하는 것</h1>
+                        <ul>
+                            <li>노래 : Strawberries & Cigarettes
+                            <li>노래 장르 : jpop
+                            <li>가수 : Ado 
+                            <li>운동 : 농구</li>
+                            <li>게임 : 피파 온라인4</li>
+                            <li>영화 : 코코</li>
+                        </ul>
+                    </div>             
+                </div>
+                <div>
+                    <div class = "quiz">
+                        <h1>Quiz</h1>
+                        <h2>정답인 것 같은 버튼을 클릭해주세요.</h2>
+
+                        <div class="animal">
+                            <h1>1. 좋아하는 동물</h1>
+                            <button id = "cat" onclick="T1_changeBackgroundColor()">고양이</button>
+                            <button id = "dog" onclick="F1_changeBackgroundColor()">강아지</button>
+                        </div>
+
+                        <div class = "F_food">
+                            <h1>2. 좋아하는 음식</h1>
+                            <button id = "burger" onclick="T2_changeBackgroundColor()">햄버거</button>
+                            <button id = "gc" onclick="F2_changeBackgroundColor()">곱창</button>
+                        </div>
+
+                        <div class = "H_food">
+                            <h1>2. 싫어하는 음식</h1>
+                            <button id = "kg" onclick="F3_changeBackgroundColor()">파인애플 피자</button>
+                            <button id = "cc" onclick="T3_changeBackgroundColor()">민트초코</button>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+
+        </div>
+
+        
+    
+    </div>
+ 
+
+    <script src="H_script.js"></script>
+</body>
+</html>1
